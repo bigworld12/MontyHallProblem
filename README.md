@@ -8,7 +8,7 @@
 # What this repo does:
 this basically just creates random scenarios (10,000 tries), it chooses a random correct door, and a random picked door at first, then based on the approach you take (either switch or stay or random switch/stay), it checks if you picked the correct door or not.
 
-# Explaination:
+# Explanation:
 in general, this is basically a question of, what's the probability of choosing the same number twice from a set of numbers
 
 if that probability is LOW, then you should go with SWITCHING, why? because if it's NOT the number i picked, then it's the other number.
@@ -29,12 +29,12 @@ that's the theory people have debated over the years, so i created this repo to 
 
 
 # Results:
-#### here are some results if you are too lazy to run the code yourself
+#### here are some results if you don't want to run the code yourself
  - Run 1
 ```
 Testing 10,000 Tries
 =========================================
-============ Test Awalys Stay ===========
+============ Test Always Stay ===========
 =========================================
 Success for 3 doors: 3,346 (33.46% success rate)
 Success for 10 doors: 1,012 (10.12% success rate)
@@ -42,7 +42,7 @@ Success for 100 doors: 83 (0.83% success rate)
 Success for 10,000 doors: 0 (0% success rate)
 =========================================
 =========================================
-=========== Test Awalys Switch ==========
+=========== Test Always Switch ==========
 =========================================
 Success for 3 doors: 6,683 (66.83% success rate)
 Success for 10 doors: 9,009 (90.09% success rate)
@@ -62,7 +62,7 @@ Success for 10,000 doors: 5,107 (51.07% success rate)
 ```
 Testing 10,000 Tries
 =========================================
-============ Test Awalys Stay ===========
+============ Test Always Stay ===========
 =========================================
 Success for 3 doors: 3,322 (33.22% success rate)
 Success for 10 doors: 1,022 (10.22% success rate)
@@ -70,7 +70,7 @@ Success for 100 doors: 79 (0.79% success rate)
 Success for 10,000 doors: 1 (0.01% success rate)
 =========================================
 =========================================
-=========== Test Awalys Switch ==========
+=========== Test Always Switch ==========
 =========================================
 Success for 3 doors: 6,750 (67.5% success rate)
 Success for 10 doors: 8,983 (89.83% success rate)
@@ -90,7 +90,7 @@ Success for 10,000 doors: 5,040 (50.4% success rate)
 ```
 Testing 10,000 Tries
 =========================================
-============ Test Awalys Stay ===========
+============ Test Always Stay ===========
 =========================================
 Success for 3 doors: 3,308 (33.08% success rate)
 Success for 10 doors: 956 (9.56% success rate)
@@ -98,7 +98,7 @@ Success for 100 doors: 110 (1.1% success rate)
 Success for 10,000 doors: 0 (0% success rate)
 =========================================
 =========================================
-=========== Test Awalys Switch ==========
+=========== Test Always Switch ==========
 =========================================
 Success for 3 doors: 6,690 (66.9% success rate)
 Success for 10 doors: 8,982 (89.82% success rate)

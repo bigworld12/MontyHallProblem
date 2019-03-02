@@ -49,7 +49,7 @@ namespace MontyHallProblem
         public static void TestAlwaysSwitch()
         {
             Console.WriteLine("=========================================");
-            Console.WriteLine("=========== Test Awalys Switch ==========");
+            Console.WriteLine("=========== Test Always Switch ==========");
             Console.WriteLine("=========================================");
             //repeat 10000 times
             Dictionary<int, int> SuccessTimes = new Dictionary<int, int>();
