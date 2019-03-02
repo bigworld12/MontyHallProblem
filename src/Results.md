@@ -11,9 +11,9 @@ this basically just creates random scenarios (10,000 tries), it chooses a random
 # Explaination:
 in general, this is basically a question of, what's the probability of choosing the same number twice from a set of numbers
 
-if that probability is LOW, then you should go with SWITCHING
+if that probability is LOW, then you should go with SWITCHING, why? because if it's NOT the number i picked, then it's the other number.
 
-if that probability is HIGH, then you should go with STAYING
+if that probability is HIGH, then you should go with STAYING, why? because if it's the number i picked, then why change it?
 ```
 lets say that we have 3 numbers a,b and c
 these are all the possible combinations
