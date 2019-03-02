@@ -23,7 +23,9 @@ Is Equal ?  | T | F | F | F | T | F | F | F | T
 
 we have 3/9=1/3 chance to get it right, so we should go with switching
 ```
-that's the theory people have debated over the years, so i created this repo to show its actual effectiveness in real scenarios 
+so if we have X numbers
+the probability is X/X^2=1/X to get it right, so the more numbers you have, the less probable you get it right.
+that's the theory people have debated over the years, so i created this repo to show its actual effectiveness in real scenarios.
 
 
 # Results:
